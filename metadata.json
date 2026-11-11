@@ -1,0 +1,8 @@
+{
+  "name": "Remix Atendimento Inteligente IA",
+  "description": "Assistente Virtual Oficial de Atendimento com proteção anti-alucinação, defesa anti-jailbreak, consulta de pedidos e transbordo para atendente humano.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atendimento Inteligente IA - Assistente Virtual</title>
+    <meta name="description" content="Assistente Virtual Oficial de Atendimento com proteção anti-alucinação, defesa anti-jailbreak, consulta de pedidos e transbordo para atendente humano." />
+    <meta property="og:title" content="Atendimento Inteligente IA - Assistente Virtual" />
+    <meta property="og:description" content="Assistente Virtual Oficial de Atendimento com proteção anti-alucinação, defesa anti-jailbreak, consulta de pedidos e transbordo para atendente humano." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event.reason && (String(event.reason.message || event.reason).includes('WebSocket'))) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+      }, true);
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
